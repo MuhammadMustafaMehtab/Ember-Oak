@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ember & Oak</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- Header start -->
+  <nav class="navbar navbar-expand-lg c-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-img ps-4" href="#"><img src="./images/ember-oak-logo-v3-transparent.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse c-menu" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pe-3 menu-page" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex pe-4">
+          <button class="btn btn-outline-custom1 rounded-pill btn-sm">Book a table</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+  <!-- Hero start -->
+  <section class="hero-section d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8 col-md-10 col-12">
+
+          <p class="hero-label mb-3">FINE DINING EXPERIENCE</p>
+
+          <h1 class="hero-title mb-4">
+            Where flavor meets <span class="text-gold">atmosphere</span>
+          </h1>
+
+          <p class="hero-subtext mx-auto mb-5">
+            Fresh ingredients, slow-cooked recipes and a dining room
+            built for unforgettable evenings.
+          </p>
+
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="#" class="btn btn-gold rounded-pill px-4 py-2">Reserve a table</a>
+            <a href="#" class="btn btn-outline-custom rounded-pill px-4 py-2">View menu</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero end -->
+  <!-- stats start -->
+  <section class="stats-section py-5">
+    <div class="container">
+      <div class="row text-center">
+
+        <div class="stat-item col-md-3 col-6">
+          <h2 class="stat-number" data-target="8" data-suffix="+">8+</h2>
+          <p class="stat-label">Years of mastery</p>
+        </div>
+
+        <div class="stat-item col-md-3 col-6">
+          <h2 class="stat-number" data-target="120" data-suffix="+">120+</h2>
+          <p class="stat-label">Signature dishes</p>
+        </div>
+
+        <div class="stat-item col-md-3 col-6">
+          <h2 class="stat-number" data-target="25" data-suffix="k+">25k+</h2>
+          <p class="stat-label">Happy guests</p>
+        </div>
+
+        <div class="stat-item col-md-3 col-6">
+          <h2 class="stat-number" data-target="4.9" data-suffix="" data-decimal="true">4.9</h2>
+          <p class="stat-label">Average</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- stats end -->
+  <!-- menu start -->
+  <section class="menu-section py-5">
+    <div class="container">
+      <h4 class="menu-label text-center"> OUR MENU</h4>
+      <h2 class="menu-title text-center mt-3 mb-5">Signature dishes crafted with passion</h2>
+      <div class="row g-4">
+        <!-- card 1 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card menu-card">
+            <div class="card-img-wrap">
+              <img src="./images/mushroom.jfif" class="card-img-top" alt="Truffle Mushroom Risotto">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Truffle Mushroom Risotto</h5>
+              <p class="card-text">Creamy arborio rice with wild mushrooms and parmesan.</p>
+              <div class="badge d-flex justify-content-between align-items-center">
+                <span class="price fw-bold fs-5">$18</span>
+                <a href="#" class="btn btn-sm btn-outline-custom2 rounded-pill px-3 add-cart-btn">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card menu-card">
+            <div class="card-img-wrap">
+              <img src="./images/lamb chops.jfif" class="card-img-top" alt="Charred Herb-Crusted Lamb Chops">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Charred Herb-Crusted Lamb Chops</h5>
+              <p class="card-text">Rosemary-marinated lamb grilled with roasted vegetables.</p>
+              <div class="badge d-flex justify-content-between align-items-center">
+                <span class="price fw-bold fs-5">$26</span>
+                <a href="#" class="btn btn-sm btn-outline-custom2 rounded-pill px-3 add-cart-btn">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-sm-6 col-md-4 col-12 mx-sm-auto mx-md-0">
+          <div class="card menu-card">
+            <div class="card-img-wrap">
+              <img src="./images/salmon.jfif" class="card-img-top" alt="Citrus Glazed Salmon">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Citrus Glazed Salmon</h5>
+              <p class="card-text">Pan-seared salmon with orange beurre blanc glaze.</p>
+              <div class="badge d-flex justify-content-between align-items-center">
+                <span class="price fw-bold fs-5">$22</span>
+                <a href="#" class="btn btn-sm btn-outline-custom2 rounded-pill px-3 add-cart-btn">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- menu end -->
+  <!-- Story start -->
+  <section class="story-section py-5 d-flex ">
+    <div class="container">
+      <div class="row g-0 align-items-center">
+        <!-- story image -->
+        <div class="col-lg-6 col-md-10 col-12">
+          <div class="story-img">
+            <img src="./images/story.jfif" alt="Ember and Oak restaurant story">
+          </div>
+        </div>
+        <!-- story description -->
+        <div class="col-lg-6 col-md-10 col-12 ">
+          <div class="story-desc">
+            <h4 class="story-label">OUR STORY</h4>
+            <h2 class="story-title mt-3 mb-2">A culinary journey since 2016</h2>
+            <p class="story-para">What began as a small family kitchen has grown into a neighborhood landmark, built on
+              open-flame cooking, honest ingredients and a warm table for every guest who walks through our doors</p>
+            <a href="#" class="btn btn-outline-custom3 rounded-pill px-3 py-2">Discover our story</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Story end -->
+  <!--Gallery start  -->
+  <section class="gallery-section py-5">
+    <div class="container">
+      <h4 class="gallery-label text-center">GALLERY</h4>
+      <h2 class="gallery-title text-center mt-3 mb-5">Moments worth savoring</h2>
+      <div class="row g-4">
+        <!-- card 1 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g1.jfif" class="card-img-top" alt="Gallery photo 1">
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g2.jfif" class="card-img-top" alt="Gallery photo 2">
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g3.jfif" class="card-img-top" alt="Gallery photo 3">
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g4.jfif" class="card-img-top" alt="Gallery photo 4">
+          </div>
+        </div>
+        <!-- card 5 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g5.webp" class="card-img-top" alt="Gallery photo 5">
+          </div>
+        </div>
+        <!-- card 6 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card gallery-card">
+            <img src="./images/g6.jfif" class="card-img-top" alt="Gallery photo 6">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Gallery end  -->
+  <!-- testimonials start -->
+  <section class="test-section py-5">
+    <div class="container">
+      <h4 class="test-label text-center">TESTIMONIALS</h4>
+      <h2 class="test-title text-center mt-3 mb-5">What our guests say</h2>
+      <div class="row g-4 justify-content-center">
+        <!-- card 1 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card test-card">
+            <div class="card-body text-center">
+              <!-- icons -->
+              <div class="card-icons mb-3 ">
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+              </div>
+              <p class="quote">The truffle risotto alone is worth the visit. Service felt personal and warm all night.
+              </p>
+              <div class="user">
+                <h6 class="mb-0 mt-5 name">Hira Khan</h6>
+                <p class="mb-0 role">Food blogger</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card test-card">
+            <div class="card-body text-center">
+              <!-- icons -->
+              <div class="card-icons mb-3 ">
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+              </div>
+              <p class="quote">Best ambiance in the city. We celebrated our aniversary here and it was it was
+                unforgettable. </p>
+              <div class="user">
+                <h6 class="mb-0 mt-5 name">Ali Raza</h6>
+                <p class="mb-0 role">Regular guest</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-sm-6 col-md-4 col-12">
+          <div class="card test-card">
+            <div class="card-body text-center">
+              <!-- icons -->
+              <div class="card-icons mb-3 ">
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+                <i class="bi bi-star-fill icon"></i>
+              </div>
+              <p class="quote">Every dish tasted like it was made with real care. Will absolutely be coming back. </p>
+              <div class="user">
+                <h6 class="mb-0 mt-5 name">Sara Ahmed</h6>
+                <p class="mb-0 role">First time visitor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- testimonials end -->
+
+
+  <!-- booking start -->
+  <section class="booking-section d-flex py-5 align-items-center text-white">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8 col-md-10 col-12">
+          <h2 class="booking-title text-center ">Reserve your table tonight</h2>
+          <p class="booking-text">Limited seating available for weekend evenings</p>
+          <a href="#" class="btn btn-outline-custom4 rounded-pill px-4 py-2">Book now</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- booking end -->
+
+  <!-- Footer start -->
+   <footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Col 1: Brand -->
+      <div class="col-md-3 col-12">
+        <img src="./images/ember-oak-logo-v3-on-black.png" alt="Ember & Oak" class="footer-logo-img">
+        <p class="footer-text">
+          A modern dining room rooted in honest ingredients and open-flame cooking.
+        </p>
+        <div class="d-flex gap-2 mt-3">
+          <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-threads"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <div class="col-md-3 col-6">
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Opening Hours -->
+      <div class="col-md-3 col-6">
+        <h5 class="footer-heading">Opening Hours</h5>
+        <p class="footer-text mb-1">Mon - Fri</p>
+        <p class="footer-text mb-3">5:00 pm - 11:00 pm</p>
+        <p class="footer-text mb-1">Sat - Sun</p>
+        <p class="footer-text">1:00 pm - 12:00 am</p>
+      </div>
+
+      <!-- Col 4: Contact + Newsletter -->
+      <div class="col-md-3 col-12">
+        <h5 class="footer-heading">Get in Touch</h5>
+        <p class="footer-text mb-1">12 Lakeview Road, Karachi</p>
+        <p class="footer-text mb-1">+92 300 0000000</p>
+        <p class="footer-text mb-3">hello@emberandoak.com</p>
+
+        <div class="newsletter-box">
+          <input type="email" class="newsletter-input" id="newsletterInput" placeholder="Your email address">
+        </div>
+        <p class="newsletter-msg mb-0" id="newsletterMsg"></p>
+      </div>
+
+    </div>
+
+    <hr class="footer-divider">
+
+    <p class="footer-copy text-center mb-0">
+      &copy; 2026 Ember & Oak. All rights reserved.
+    </p>
+  </div>
+</footer>
+  <!-- Footer end -->
+
+  <!-- scroll to top button -->
+  <button id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Js -->
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <script src="./JS/jquery.js"></script>
+  <script src="./JS/script.js"></script>
+</body>
+
+</html>
