@@ -20,6 +20,9 @@ Ember & Oak is a single-page restaurant website concept that highlights:
 The layout is fully responsive, ensuring a consistent and polished experience across desktops, tablets, and mobile devices.
 
 ---
+## 🖼️ Preview
+
+![Ember & Oak Landing Page](./images/landing%20page%20preview.png)
 
 ## 🛠️ Technologies Used
 
