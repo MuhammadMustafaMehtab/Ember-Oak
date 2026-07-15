@@ -1,6 +1,3 @@
-// Ember & Oak - homepage jQuery
-// All the interactive bits for the homepage live here.
-
 $(document).ready(function () {
 
   // 1. Navbar shrink on scroll
